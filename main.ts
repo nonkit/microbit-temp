@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showString("Hello!")
+    basic.showString("" + (input.temperature()))
 })
 basic.forever(function () {
 	
